@@ -22,6 +22,7 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -47,6 +48,9 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        healing: "hsl(var(--healing))",
+        empowerment: "hsl(var(--empowerment))",
+        community: "hsl(var(--community))",
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -57,6 +61,21 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+      },
+      backgroundImage: {
+        "gradient-hero": "var(--gradient-hero)",
+        "gradient-healing": "var(--gradient-healing)", 
+        "gradient-empowerment": "var(--gradient-empowerment)",
+        "gradient-card": "var(--gradient-card)",
+      },
+      boxShadow: {
+        gentle: "var(--shadow-gentle)",
+        healing: "var(--shadow-healing)",
+        empowerment: "var(--shadow-empowerment)",
+      },
+      transitionTimingFunction: {
+        gentle: "var(--transition-gentle)",
+        healing: "var(--transition-healing)",
       },
       borderRadius: {
         lg: "var(--radius)",

@@ -2,41 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* SisterHealing Alliance Design System - Healing, Empowerment & Community
+All colors MUST be HSL for trauma-informed, gentle design.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Core healing palette */
+    --background: 352 15% 98%;
+    --foreground: 155 25% 15%;
 
+    /* Cards with gentle warmth */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 155 25% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 155 25% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Healing sage green */
+    --primary: 155 25% 35%;
+    --primary-foreground: 0 0% 100%;
+    --primary-glow: 155 35% 65%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Warm coral for empowerment */
+    --secondary: 345 65% 75%;
+    --secondary-foreground: 155 25% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted: Soft neutrals */
+    --muted: 20 10% 95%;
+    --muted-foreground: 155 15% 45%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Gentle lavender for sisterhood */
+    --accent: 280 20% 85%;
+    --accent-foreground: 155 25% 15%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Support colors */
+    --healing: 160 30% 80%;
+    --empowerment: 345 55% 85%;
+    --community: 280 25% 90%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --destructive: 0 65% 55%;
+    --destructive-foreground: 0 0% 100%;
 
-    --radius: 0.5rem;
+    --border: 20 15% 92%;
+    --input: 20 15% 92%;
+    --ring: 155 25% 35%;
+
+    --radius: 0.75rem;
+
+    /* Healing gradients */
+    --gradient-hero: linear-gradient(135deg, hsl(155, 25%, 35%), hsl(160, 30%, 80%));
+    --gradient-healing: linear-gradient(120deg, hsl(160, 30%, 80%), hsl(280, 25%, 90%));
+    --gradient-empowerment: linear-gradient(45deg, hsl(345, 55%, 85%), hsl(280, 20%, 85%));
+    --gradient-card: linear-gradient(180deg, hsl(0, 0%, 100%), hsl(352, 15%, 98%));
+
+    /* Gentle shadows for trauma-informed design */
+    --shadow-gentle: 0 4px 20px -4px hsl(155, 25%, 35% / 0.15);
+    --shadow-healing: 0 8px 32px -8px hsl(160, 30%, 80% / 0.3);
+    --shadow-empowerment: 0 6px 24px -6px hsl(345, 55%, 85% / 0.25);
+
+    /* Smooth transitions */
+    --transition-gentle: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-healing: all 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
 
     --sidebar-background: 0 0% 98%;
 
