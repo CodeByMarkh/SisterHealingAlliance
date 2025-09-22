@@ -95,7 +95,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-bold text-foreground">Email Us</h3>
-                  <p className="text-muted-foreground">info@sisterhealingalliance.org</p>
+                  <p className="text-muted-foreground">sisterhealingalliance@gmail.com</p>
                 </div>
               </div>
               <p className="text-muted-foreground leading-relaxed">

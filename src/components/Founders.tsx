@@ -5,7 +5,7 @@ import { Quote, Heart, Star, Users, Crown } from "lucide-react";
 const Founders = () => {
   const founders = [
     {
-      name: "Sarah Wanjiku",
+      name: "Lydia Were",
       role: "Chairperson & Co-Founder",
       quote: "Every woman deserves a space where her story is heard, her pain is understood, and her healing is supported.",
       expertise: "Mental Health Advocacy",
@@ -13,7 +13,15 @@ const Founders = () => {
       gradient: "from-primary/20 to-healing/20"
     },
     {
-      name: "Grace Achieng",
+      name: "Mourine Wanja",
+      role: "Vice chairperson & Co-Founder",
+      quote: "Every woman deserves a space where her story is heard, her pain is understood, and her healing is supported.",
+      expertise: "Mental Health Advocacy",
+      icon: <Crown className="w-6 h-6 text-primary" />,
+      gradient: "from-primary/20 to-healing/20"
+    },
+    {
+      name: "Winfred Mwangi",
       role: "Secretary & Co-Founder", 
       quote: "Through sisterhood, we transform individual healing into collective strength and community resilience.",
       expertise: "Community Organizing",
@@ -21,7 +29,7 @@ const Founders = () => {
       gradient: "from-secondary/20 to-empowerment/20"
     },
     {
-      name: "Faith Nyambura",
+      name: "Giselle Nekesa",
       role: "Treasurer & Co-Founder",
       quote: "Sustainable healing requires sustainable resources. I ensure our mission has the foundation to thrive.",
       expertise: "Financial Management",

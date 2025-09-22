@@ -26,12 +26,12 @@ const Hero = () => {
           {/* Tagline */}
           <div className="space-y-4">
             <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white leading-tight">
-              Healing. <span className="text-secondary">Resilience.</span> <span className="text-healing">Sisterhood.</span>
+              Sister <span className="text-secondary">Healing </span> <span className="text-healing">Alliance</span>
             </h1>
             
             <div className="flex items-center justify-center gap-2 text-white/90 text-lg sm:text-xl">
               <Heart className="w-6 h-6 text-secondary" />
-              <span>SisterHealing Alliance</span>
+              <span>Dada Kwa Dada </span>
               <Heart className="w-6 h-6 text-secondary" />
             </div>
           </div>
